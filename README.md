@@ -97,13 +97,31 @@ Inkspire has several main features, all powered by the **Google Gemini API** for
   - Interactive with hover effects, micro-animations, and clear feedback  
 
 
+**Prerequisites:**  
+
+-   A modern web browser (Chrome, Firefox, Safari, Edge).
+-   A local web server. You can use the `serve` package for a quick setup. If you don't have it, install it globally:
+    ```bash
+    npm install -g serve
+    ```
+-   A Google Gemini API Key. You can get one from [Google AI Studio](https://aistudio.google.com/).
+-   Node.js
+
 ## Run Locally
-
-**Prerequisites:**  Node.js
-
 
 1. Install dependencies:
    `npm install`
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions for improvements or find a bug, please feel free to:
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
